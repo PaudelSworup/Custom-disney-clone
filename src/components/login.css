@@ -1,0 +1,63 @@
+.LContainer{
+    position: relative;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.LContainer::before{
+    background-image: url("/public/images/login-background.jpg");
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    background-image: no-repeat;
+    z-index: -1;
+}
+
+.CTA{
+    max-width: 650px;
+    padding: 80px 40px;
+    width:90%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 100px;
+    
+    
+}
+
+.CTA> a{
+    width: 100%;
+    background-color: #0063e5;
+    font-weight: bold;
+    padding: 17px 0;
+    text-align: center;
+    color: #f9f9f9;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 250ms;
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+    /* margin-bottom: 1px;    */
+
+}
+
+.CTA> a:hover{
+    background-color: #0483ee;
+}
+
+.Ldescription{
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    font-size: 12px;
+
+}
+

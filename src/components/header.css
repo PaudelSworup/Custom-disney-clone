@@ -1,0 +1,185 @@
+.container{
+    height:70px;
+    background-color: #090b13;
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+    overflow-x: hidden;
+    justify-content: space-between;
+}
+
+.logoimg{
+    width: 80px;
+}
+
+.NavMenu{
+    display: flex;
+    flex: 1;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.NavMenu > a{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.NavMenu > a > img{
+    height: 20px;
+}
+
+.help{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.NavMenu > a > span{
+    font-size: 13px;
+    letter-spacing: 1.42px;
+    position: relative;
+    color: #fff;
+}
+
+.NavMenu > a > span::after{
+    content: "";
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    transform-origin: left center;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    opacity: 0;
+    transform:scaleX(0);
+}
+
+
+.NavMenu > a > span:hover::after{
+    opacity: 1;
+    transform:scaleX(1);
+}
+
+
+
+.UserImg{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* margin: 0 0 0 500px; */
+}
+
+.menu-btn{
+    color:#fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+    margin:0 0 0 20px;
+}
+
+.menu-btn .bars-icon{
+    display: block;
+}
+
+.menu-btn .cross-icon{
+    display: none;
+}
+
+.login{
+    border: 1px solid #f9f9f9;
+    padding: 8px 16px;
+    border-radius: 4px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color:#fff;
+    background-color: rgba(0,0,0,0.6);
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #f9f9f9;
+    color: #000;
+    border-color: transparent;
+}
+
+.logcontainer{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width: 1019px){
+    .menu-btn{
+        display: block;
+        z-index: 1;
+    }
+
+    .container .NavMenu{
+        position: fixed;
+         background:#090b13;
+         height: 100vh;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         text-align: center;
+         padding-top:80px;
+         left: 100%;
+         top:0;
+         right: 60px;
+         transition: all 0.9s ease;
+         z-index: 999;
+    }
+
+    .NavMenu.active{
+        left: 0;
+    }
+
+    .help{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* .UserImg{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 0 0 0 20px;
+    } */
+
+    .menu-btn{
+        color:#fff;
+        font-size: 23px;
+        cursor: pointer;
+        margin:0 0 0 800px;
+        z-index: 999;
+    }
+}
+
+@media(max-width: 941px){
+    .menu-btn{
+        color:#fff;
+        font-size: 23px;
+        cursor: pointer;
+        margin:0 0 0 30px;
+    }
+   
+}
+
+
+/* @media(max-width: 1700px){
+    .UserImg{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 0 0 0 710px;
+    }
+} */
