@@ -1,10 +1,11 @@
 # Diney Clone using React redux
 <hr>
-   # Ui of the projects
+<b>UI of The Projects</b>
 <div style="display:flex";>
   <div>
     <img src="https://user-images.githubusercontent.com/96978659/153400159-0a173d38-441f-41f5-bdb4-7d04b7bcb89a.png" width="300" height="300" />
      <img src="https://user-images.githubusercontent.com/96978659/153400158-0297860e-e3f7-4ba5-8bc6-1608ea8a232d.png" width="300" height="300" />
+     <img src="https://user-images.githubusercontent.com/96978659/153400193-8c53065c-2fbe-4cef-82ef-f658c51bba09.png" width="300" height="300" />
   </div>
   
   <div style="margin-left:10px">
