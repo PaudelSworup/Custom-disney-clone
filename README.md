@@ -1,7 +1,7 @@
 # Diney Clone using React redux
 <hr>
 <b>UI of The Projects</b>
-<div style="display:flex";>
+<div style="display:flex; padding:20px; justify-content:center;";>
   <div>
     <img src="https://user-images.githubusercontent.com/96978659/153400159-0a173d38-441f-41f5-bdb4-7d04b7bcb89a.png" width="300" height="300" />
      <img src="https://user-images.githubusercontent.com/96978659/153400158-0297860e-e3f7-4ba5-8bc6-1608ea8a232d.png" width="300" height="300" />
