@@ -1,8 +1,10 @@
 # Diney Clone using React redux
 <hr>
 <hr>
-<p>**Hello! visitors you can simply click on the link below to see the demo**</p>
-[Click me to see the demo](https://custom-disney.web.app/)
+**Hello! visitors you can simply click on the link below to see the demo**
+<a href="https://custom-disney.web.app/">click me to see demo</a>
+
+<hr>
 <hr>
 <B>UI of The Projects</B[This is an external link to genome.gov] (https://www.genome.gov/)>
 <hr>
