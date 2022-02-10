@@ -1,10 +1,10 @@
 # Diney Clone using React redux
 <hr>
 <hr>
-<p>Hello! visitors you can simply click on the button to see the demo</p>
-<div style="border:1px solid black; padding:20px; height:30px; width:30px">Click Me</div>
+<p>Hello! visitors you can simply click on the link below to see the demo</p>
+[Click me to see the demo] (https://custom-disney.web.app/)
 <hr>
-<B>UI of The Projects</B>
+<B>UI of The Projects</B[This is an external link to genome.gov] (https://www.genome.gov/)>
 <hr>
 
 <div style="display:flex; padding:20px; justify-content:center;";>
