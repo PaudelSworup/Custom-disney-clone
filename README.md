@@ -2,7 +2,7 @@
 <hr>
 <hr>
 <p>Hello! visitors you can simply click on the button to see the demo</p>
-[Click me](http://www.google.com){: .btn}
+<div style="border:1px solid black; padding:20px; height:30px; width:30px">Click Me</div>
 <hr>
 <B>UI of The Projects</B>
 <hr>
