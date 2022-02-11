@@ -1,4 +1,4 @@
-# Diney Clone using React redux
+# Disney Clone using React redux
 <hr>
 <hr>
   <B>Hello! visitors you can simply click on the link below to see the demo</B><br>
